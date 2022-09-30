@@ -960,7 +960,7 @@ padding: 0;
 background-color:var(--text-color);
 
 }
-.form-footer label::placeholder{
+.form-footer input::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
 .form-mail{
