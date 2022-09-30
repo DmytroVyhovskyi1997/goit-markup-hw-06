@@ -404,17 +404,18 @@
                         <label for="comment"> Коментар</label>  
                     <textarea class="comment" name="comment" rows="8" id="comment" placeholder="Введіть текст"></textarea> 
                     </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <label class="label" for>
-                                    <input class="checkbox" type="checkbox" name="topic" value="html">
-                                    <span class="icon-checkbox"></span>
-                                    Погоджуюся з розсилкою та приймаю  Умови договору 
+                    <div class="check__box">
+                              <label class="label">
+                                    <input class="checkbox" type="checkbox" name="checkbox">
+                    
+                                        <svg class="icon-checkbox" >
+                                            <use class="check-border" href="./image/icons.svg/symbol.svg#icon"></use>
+                                            <use class="check" href="./image/icons.svg/gimno.svg#icon-gimno"></use>
+                                        </svg>
+                                    <span class="label-text">Погоджуюся з розсилкою та приймаю <a class="text-topic">Умови договору</a></span>
                                 </label>
-                            </li>
-                        </ul>
-    
+                                <button  class="check-buttom">Відправити</button>
+                   </div>
                 </form>
                
             </div>
